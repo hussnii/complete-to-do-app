@@ -1,112 +1,60 @@
- #final assignment complete-to-do-app
-🕌 Islamic Prayer & Zikir Tracker 🕌
+ 🕌 Islamic Prayer & Zikir Tracker Web App
 
-NESDA Assignment 12 – First Fully Functional Web Project
+NESDA Assignment 12 – My First Fully Functional Web Project
 
-This is a web-based Islamic Prayer & Zikir Tracker, created as part of NESDA Assignment 12. It helps users track daily prayers, Sunnah prayers, Zikirs, and Ramadan-related worship. The app includes a to-do list, prayer tracking, counters for Zikir and Tahajjud, and saves progress automatically using localStorage.
+Welcome to my first full-featured web project! This app helps you track your daily prayers, Sunnah prayers, Zikirs, Ramadan activities, and general to-do tasks. All your progress is saved automatically using localStorage, so nothing gets lost even if you refresh or close your browser.
 
-🌟 Features
-Daily To-Do List
+📌 Key Highlights
 
-Add, complete, or delete tasks.
+✅ Daily To-Do List: Add, mark complete, delete, and filter tasks
 
-Filter: All, Completed, Pending.
+🕌 Fard Prayer Tracker: Track Fajr, Dhuhr, Asr, Maghrib, and Isha
 
-Clear all tasks with one click.
+📿 Sunnah Prayer Tracker: Track optional Sunnah prayers
 
-Tasks are saved persistently in the browser.
+🌙 Zikir Tracker: Morning, Evening, After Prayer, and Special Zikirs
 
-Fard Prayer Tracker
+📅 Ramadan Tracker: Fasting, Quran reading, charity, Tarawih, and Du’a
 
-Track five daily prayers: Fajr, Dhuhr, Asr, Maghrib, Isha.
+🧭 Qibla Guidance: Direction reference for prayer
 
-Shows motivational messages for completed or missed prayers.
+🔒 Privacy-Oriented: Your data is personal and stored only on your browser
 
-Sunnah Prayer Tracker
+🛠 Built With
 
-Track Sunnah prayers: Fajr, Dhuhr, Maghrib, Isha.
+HTML5 – For page structure
 
-Checkbox states are saved automatically.
+CSS – For styling and responsive design
 
-Tahajjud Tracker
+JavaScript (ES6) – For interactive tasks, counters, and localStorage persistence
 
-Increase, decrease, or reset your Tahajjud count.
-
-Counter persists across sessions.
-
-Zikir Tracker
-
-Track Morning, Evening, After Prayer, and Special Zikirs.
-
-Increment, decrement, and reset counters.
-
-All data is saved locally.
-
-Ramadan Tracker
-
-Track fasting, Qur’an reading, charity, Tarawih prayers, and Du’a.
-
-Qibla Direction
-
-Basic guidance to face the Kaaba in Makkah.
-
-Includes approximate direction for Ethiopia.
-
-Settings
-
-Contact information.
-
-Privacy notice: All your prayers and Zikirs are private.
-
-Age selection dropdown for personalization.
-
-📁 Project Structure
+📂 Project Files
 NESDA-Assignment-12/
 │
-├── index.html         → Main HTML file
-├── prayertodolist.js  → JavaScript logic and localStorage
-├── prayertodolist.css → Stylesheet for layout and design
-└── README.md          → This file
+├── index.html        → Main web page  
+├── prayertodolist.css → Stylesheet for design and layout  
+├── prayertodolist.js  → JavaScript logic for tasks, prayers, and counters  
+└── README.md         → Project description and instructions  
 
-🚀 Installation
+🚀 How to Run
 
-Clone or download the repository.
+Open index.html in your web browser.
 
-Open index.html in a modern web browser (Chrome, Firefox, Edge, Safari).
+Enter your name when prompted to personalize your experience.
 
-🧩 Usage
+Add and manage your tasks in the Daily To-Do List.
 
-Enter your name when prompted by the welcome alert.
+Track your Fard and Sunnah prayers by checking the boxes.
 
-Add tasks to the Daily To-Do List and mark them as completed.
+Use Zikir and Tahajjud counters to stay consistent.
 
-Check/uncheck prayers and Zikirs to track your progress.
+Everything is automatically saved using localStorage.
 
-Use counters to track repeated Zikirs or Tahajjud prayers.
-
-All data is saved automatically and will persist even after refreshing or closing the browser.
-
-💻 Technologies Used
-
-HTML5 – Page structure.
-
-CSS3 – Styling and layout.
-
-JavaScript (ES6) – Logic, DOM manipulation, and localStorage.
-
-🛠 Future Improvements
-
-Save nested Zikir checkboxes individually.
-
-Add Hijri calendar integration.
-
-Add notifications or reminders for prayer times.
-
-Improve mobile responsiveness.
-
-👩‍💻 Author
+ 
+#contact
 
 Hussni Mohammed
 📧 hussnimuhammed335@gmail.com
 
-📞 +251 967131310
+Assignment: NESDA Assignment 12
+Date: 25 October 2025
