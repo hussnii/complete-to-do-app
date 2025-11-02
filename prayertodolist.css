@@ -1,0 +1,311 @@
+body{
+    background-image: url(mosque2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  display:flex;
+  gap:25%;
+  justify-content:space-between;
+  padding:10px;
+  align-items: center;
+}
+h1{
+  text-align:center;
+  color:rgb(14, 3, 3);
+  font-size:2rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.link{
+display:flex;
+justify-content: space-between;
+gap:1rem;
+border-radius: 5px;
+margin-left: -15px;
+margin-right: -15px;
+padding: 15px 0px;
+color:gold;
+text-decoration: none;
+font-size:20px;
+background-color: rgb(117, 25, 25);
+border-left: none;
+border-right: none;
+box-shadow: 0 -4px 6px rgb(226, 206, 91);
+}
+.all{
+border:1px solid brown;
+  background-color:azure;
+  border-radius:40px;
+  margin:3rem auto;
+  padding: 15px;
+  max-width:900px;
+}
+.big{
+  font-size: 5rem;
+  padding:-20px;
+  margin:0px;
+  text-align:center;
+}
+
+.a{
+  color:gold;
+  text-decoration: none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:20px;
+   transition: all 0.3s ease;
+  
+}
+.a:active{
+  background-color:rgb(168, 75, 75) ;
+  color:whitesmoke;
+  padding:5px;
+  border-radius:5px;
+  transform:rotate(10deg); 
+}
+.a:hover{
+  background-color:gold ;
+  color:rgb(117, 25, 25);
+  transition: ;
+  padding:5px;
+  border-radius:5px;
+  transition: all 0.3s ease;
+}
+#home{
+  border:2px solid rgb(233, 168, 47);
+  border-radius: 20px;
+  padding:3px;
+  background-color:rgb(121, 57, 20) ;
+  margin: 200px auto; 
+}
+.h1home{
+  font-size: 40px;
+  color:gold;
+}
+.hometext{
+  font-size:22px;
+   font-weight:bold;
+   color:gold;
+}
+.image{
+  font-size:45px;
+}
+#todolist h1 {
+  text-align: center;
+  color: #3b1d0a;
+  background-color: #d6a85f;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.taskhandler {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.taskhandler input {
+  width: 65%;
+  padding: 10px;
+  border: 2px solid #d6a85f;
+  border-radius: 10px;
+  outline: none;
+  background-color: #fffaf0;
+  color: #3b1d0a;
+}
+
+.taskhandler button {
+  background-color: #d6a85f;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #3b1d0a;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 3px;
+  transition: 0.3s;
+}
+
+.taskhandler button:hover {
+  background-color: #3b1d0a;
+  color: #f9e4b7;
+}
+
+
+#tasklists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#tasklists li {
+  background-color: #fff9eb;
+  border: 1px solid #d6a85f;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3b1d0a;
+  transition: 0.3s;
+}
+
+#tasklists li.completed {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.8;
+}
+
+.task-buttons button {
+  background: none;
+  border: none;
+  color: #3b1d0a;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.task-buttons button:hover {
+  color: #a0522d;
+}
+#prayer,#sunnahprayer,#todolist,#setting{
+border:2px solid rgb(233, 168, 47);
+  border-radius: 20px;
+  padding:3px;
+  background-color:rgb(121, 57, 20) ;
+  margin: 200px auto;
+  font-size: 30px;
+  color:gold;
+}
+#aditionaltaskinput{
+  text-align:center;
+  margin-left: 50px 300px;
+  padding: 20px;
+  border-radius:10px;
+  width:300px;
+  background-color: hwb(0 91% 8%);
+  color: rgb(169, 113, 46);
+  
+}
+#aditionaltaskinput:hover{
+  background-color: hwb(0 91% 20%); 
+}
+#aditionaltaskinput::placeholder{
+  background-color: hwb(0 91% 20%);
+  text-align:center;
+  font-size:15px; 
+}
+.p1{
+
+font-size:20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+}
+.p{
+  display:block;
+  padding:15px;
+}
+
+#zikir{
+border:2px solid rgb(233, 168, 47);
+  border-radius: 20px;
+  padding:30px;
+  background-color:rgb(121, 57, 20);
+  margin: 20px auto 150px;
+  font-size: 25px;
+  color:gold;
+  
+}
+#tahajjud,#ramadan,#qibla{
+  border:2px solid rgb(233, 168, 47);
+  border-radius: 20px;
+  padding:30px;
+  background-color:rgb(121, 57, 20);
+  margin: 20px auto 150px;
+  font-size: 25px;
+  color:gold;
+}
+#ramadan{padding-bottom: 40px;}
+li{
+  padding:10px;
+}
+#setting{
+border:2px solid rgb(233, 168, 47);
+  border-radius: 20px;
+  padding:px;
+  background-color:rgb(121, 57, 20);
+  margin: 20px auto 150px;
+  font-size: 25px;
+  color:gold;}
+  .set{
+    font-size: 40px;
+  }
+  .buttons{
+display:flex;
+justify-content:flex-start;
+gap:2rem;
+  }
+  .button{
+cursor: pointer;
+background-color: bisque ;
+padding: 5px 15px;
+font-size: 1.3rem;
+transition: background-color 1s, color 1s ease;
+
+border-radius: 5px;
+  }
+  .button:hover{
+    background-color: rgb(82, 51, 13);
+    color:white
+  }
+  .h3z{
+    text-align: center;
+  
+  }
+  #counter,#tecounter{
+    text-align: center;
+    font-size: 7rem;
+    font-weight: bold;
+    padding-left: 40%;
+  }
+ .btn {
+  background: gold;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: brown;
+  color: white;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .link {
+    flex-direction: column;
+    align-items: center;
+  }
+  .all {
+    padding: 10px;
+  }
+  #counter {
+    font-size: 2rem;
+  }
+  .image {
+  display: flex;
+  justify-content: center;    
+  align-items: center;       
+  flex-wrap: wrap;          
+  gap: 0.5rem;                
+}
+
+.image span {
+  font-size: clamp(1.5rem, 6vw, 3rem); 
+  line-height: 1.2;
+}
